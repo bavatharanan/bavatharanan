@@ -142,3 +142,29 @@ nav .dot{
     height: auto;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .card-container{
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    justify-items: center;
+    align-content: center;
+  }
+  .card{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card-container{
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    justify-items: center;
+    align-content: center;
+  }
+  .card{
+    width: auto;
+    height: auto;
+  }
+}
